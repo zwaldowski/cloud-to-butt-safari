@@ -25,12 +25,14 @@ function walk(node) {
 }
 
 function handleText(textNode)  {
-	var v = textNode.nodeValue;
-	
+    var v = textNode.nodeValue;
     v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
+    v = v.replace(/\bThe cloud\b/g, "My butt");
     v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
-	
-	textNode.nodeValue = v;
+    v = v.replace(/\bthe cloud\b/g, "my butt");
+    v = v.replace(/\bmillenial\b/g, "snake person");
+    v = v.replace(/\bMillenial\b/g, "Snake Person");
+    v = v.replace(/\bmillenials\b/g, "snake people");
+    v = v.replace(/\bMillenials\b/g, "Snake People");
+    textNode.nodeValue = v;
 }
