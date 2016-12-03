@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBCBD8271DF24EB100DDD3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCBD8261DF24EB100DDD3E2 /* Assets.xcassets */; };
+		DBCBD82A1DF24EB100DDD3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCBD8281DF24EB100DDD3E2 /* Main.storyboard */; };
+		DBCBD8451DF24EDF00DDD3E2 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = DBCBD8441DF24EDF00DDD3E2 /* script.js */; };
+		DBCBD84A1DF24EDF00DDD3E2 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBCBD8351DF24EDF00DDD3E2 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBCBD8501DF25EA800DDD3E2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DBCBD84F1DF25EA800DDD3E2 /* Credits.rtf */; };
+		DBCBD8521DF25F9C00DDD3E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCBD8511DF25F9C00DDD3E2 /* AppDelegate.m */; };
+		DBCBD8711DF2603700DDD3E2 /* SafariExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCBD8701DF2603700DDD3E2 /* SafariExtensionHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBCBD8481DF24EDF00DDD3E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCBD8171DF24EB100DDD3E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCBD8341DF24EDF00DDD3E2;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBCBD84E1DF24EDF00DDD3E2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DBCBD84A1DF24EDF00DDD3E2 /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBCBD81F1DF24EB100DDD3E2 /* CloudToButt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudToButt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCBD8261DF24EB100DDD3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBCBD8291DF24EB100DDD3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBCBD82B1DF24EB100DDD3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCBD8351DF24EDF00DDD3E2 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCBD83B1DF24EDF00DDD3E2 /* Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Extension.entitlements; sourceTree = "<group>"; };
+		DBCBD8431DF24EDF00DDD3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCBD8441DF24EDF00DDD3E2 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		DBCBD84F1DF25EA800DDD3E2 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = ../../../Downloads/Credits.rtf; sourceTree = "<group>"; };
+		DBCBD8511DF25F9C00DDD3E2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBCBD8701DF2603700DDD3E2 /* SafariExtensionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBCBD81C1DF24EB100DDD3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCBD8321DF24EDF00DDD3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBCBD8161DF24EB100DDD3E2 = {
+			isa = PBXGroup;
+			children = (
+				DBCBD8211DF24EB100DDD3E2 /* CloudToButt */,
+				DBCBD8391DF24EDF00DDD3E2 /* Extension */,
+				DBCBD8201DF24EB100DDD3E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBCBD8201DF24EB100DDD3E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBCBD81F1DF24EB100DDD3E2 /* CloudToButt.app */,
+				DBCBD8351DF24EDF00DDD3E2 /* Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCBD8211DF24EB100DDD3E2 /* CloudToButt */ = {
+			isa = PBXGroup;
+			children = (
+				DBCBD8511DF25F9C00DDD3E2 /* AppDelegate.m */,
+				DBCBD8261DF24EB100DDD3E2 /* Assets.xcassets */,
+				DBCBD8281DF24EB100DDD3E2 /* Main.storyboard */,
+				DBCBD82B1DF24EB100DDD3E2 /* Info.plist */,
+				DBCBD84F1DF25EA800DDD3E2 /* Credits.rtf */,
+			);
+			path = CloudToButt;
+			sourceTree = "<group>";
+		};
+		DBCBD8391DF24EDF00DDD3E2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DBCBD8701DF2603700DDD3E2 /* SafariExtensionHandler.m */,
+				DBCBD8431DF24EDF00DDD3E2 /* Info.plist */,
+				DBCBD8441DF24EDF00DDD3E2 /* script.js */,
+				DBCBD83A1DF24EDF00DDD3E2 /* Supporting Files */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DBCBD83A1DF24EDF00DDD3E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBCBD83B1DF24EDF00DDD3E2 /* Extension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBCBD81E1DF24EB100DDD3E2 /* CloudToButt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCBD82E1DF24EB100DDD3E2 /* Build configuration list for PBXNativeTarget "CloudToButt" */;
+			buildPhases = (
+				DBCBD81B1DF24EB100DDD3E2 /* Sources */,
+				DBCBD81C1DF24EB100DDD3E2 /* Frameworks */,
+				DBCBD81D1DF24EB100DDD3E2 /* Resources */,
+				DBCBD84E1DF24EDF00DDD3E2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCBD8491DF24EDF00DDD3E2 /* PBXTargetDependency */,
+			);
+			name = CloudToButt;
+			productName = CloudToButt;
+			productReference = DBCBD81F1DF24EB100DDD3E2 /* CloudToButt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBCBD8341DF24EDF00DDD3E2 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCBD84B1DF24EDF00DDD3E2 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				DBCBD8311DF24EDF00DDD3E2 /* Sources */,
+				DBCBD8321DF24EDF00DDD3E2 /* Frameworks */,
+				DBCBD8331DF24EDF00DDD3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = DBCBD8351DF24EDF00DDD3E2 /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBCBD8171DF24EB100DDD3E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Zachary Waldowski";
+				TargetAttributes = {
+					DBCBD81E1DF24EB100DDD3E2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 53A8EFRS44;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					DBCBD8341DF24EDF00DDD3E2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 53A8EFRS44;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBCBD81A1DF24EB100DDD3E2 /* Build configuration list for PBXProject "CloudToButt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBCBD8161DF24EB100DDD3E2;
+			productRefGroup = DBCBD8201DF24EB100DDD3E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBCBD81E1DF24EB100DDD3E2 /* CloudToButt */,
+				DBCBD8341DF24EDF00DDD3E2 /* Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBCBD81D1DF24EB100DDD3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCBD8271DF24EB100DDD3E2 /* Assets.xcassets in Resources */,
+				DBCBD8501DF25EA800DDD3E2 /* Credits.rtf in Resources */,
+				DBCBD82A1DF24EB100DDD3E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCBD8331DF24EDF00DDD3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCBD8451DF24EDF00DDD3E2 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBCBD81B1DF24EB100DDD3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCBD8521DF25F9C00DDD3E2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCBD8311DF24EDF00DDD3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCBD8711DF2603700DDD3E2 /* SafariExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBCBD8491DF24EDF00DDD3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCBD8341DF24EDF00DDD3E2 /* Extension */;
+			targetProxy = DBCBD8481DF24EDF00DDD3E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBCBD8281DF24EB100DDD3E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCBD8291DF24EB100DDD3E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBCBD82C1DF24EB100DDD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBCBD82D1DF24EB100DDD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBCBD82F1DF24EB100DDD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 53A8EFRS44;
+				INFOPLIST_FILE = CloudToButt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.waldowski.CloudToButt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBCBD8301DF24EB100DDD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 53A8EFRS44;
+				INFOPLIST_FILE = CloudToButt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.waldowski.CloudToButt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBCBD84C1DF24EDF00DDD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 53A8EFRS44;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.waldowski.CloudToButt.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DBCBD84D1DF24EDF00DDD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 53A8EFRS44;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.waldowski.CloudToButt.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBCBD81A1DF24EB100DDD3E2 /* Build configuration list for PBXProject "CloudToButt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCBD82C1DF24EB100DDD3E2 /* Debug */,
+				DBCBD82D1DF24EB100DDD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCBD82E1DF24EB100DDD3E2 /* Build configuration list for PBXNativeTarget "CloudToButt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCBD82F1DF24EB100DDD3E2 /* Debug */,
+				DBCBD8301DF24EB100DDD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBCBD84B1DF24EDF00DDD3E2 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCBD84C1DF24EDF00DDD3E2 /* Debug */,
+				DBCBD84D1DF24EDF00DDD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBCBD8171DF24EB100DDD3E2 /* Project object */;
+}
